@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Album 3</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="Favicon/Icon.png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <a class="home" href="../index.html">Home</a>
+        </div>
+        <div class="right">
+            <a class="logout-btn" href="../login.html">Logout</a>
+        </div>
+    </div>
+
+    <img id="myVideo" src="../Cover/Alex.jpg" alt="Background" />
+
+    <div class="content">
+        <h1>Alex Warren</h1>
+        
+        <br>
+        
+        <div class="album-songs">
+            <div class="song-item" data-song-src="../Songs/AlexWarren/Alex Warren - Eternity (Official Video).mp3">
+                <h2>Eternity</h2>
+                <img src="../Songs/AlexWarren/SongCover/Eter.jpg" alt="Song Cover" width="100">
+                <div class="equalizer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="song-item" data-song-src="../Songs/AlexWarren/Alex Warren - Ordinary (Official Video).mp3">
+                <h2>Ordinary</h2>
+                <img src="../Songs/AlexWarren/SongCover/Ordinary.jpg" alt="Song Cover" width="100">
+                <div class="equalizer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="song-item" data-song-src="../Songs/AlexWarren/Alex Warren - Burning Down (with Joe Jonas) [Official Music Video].mp3">
+                <h2>Burning Down</h2>
+                <img src="../Songs/AlexWarren/SongCover/Burning.jpg" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/AlexWarren/Alex Warren - Carry You Home (Official Video).mp3 to 12.jpg">
+                <h2>Carry You Home</h2>
+                <img src="../Songs/AlexWarren/SongCover/CarryYouHome.jpg" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/AlexWarren/Alex Warren & ROSÉ - On My Mind (Official Music Video).mp3">
+                <h2>On My Mind</h2>
+                <img src="../Songs/AlexWarren/SongCover/OnMyMind.webp" alt="Song Cover" width="100">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-player-container">
+        <audio id="mainAudioPlayer" controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

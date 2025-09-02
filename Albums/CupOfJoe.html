@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Album 2</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <a class="home" href="../index.html">Home</a>
+        </div>
+        <div class="right">
+            <a class="logout-btn" href="../login.html">Logout</a>
+        </div>
+    </div>
+
+    <img id="myVideo" src="../Cover/CupOfJoe.jpg" alt="Background" />
+
+
+    <div class="content">
+        <h1>Cup Of Joe</h1>
+
+        <br>
+        
+        <div class="album-songs">
+            <!-- Songs -->
+            <div class="song-item" data-song-src="../Songs/CupOfJoe/Tingin.mp3">
+                <h2>Tingin</h2>
+                <img src="../Songs/CupOfJoe/SongCover/Tingin.jpg" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/CupOfJoe/Estranghero.mp3">
+                <h2>Estranghero</h2>
+                <img src="../Songs/CupOfJoe/SongCover/Estranghero.jpg" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/CupOfJoe/Multo.mp3">
+                <h2>Multo</h2>
+                <img src="../Songs/CupOfJoe/SongCover/Multo.png" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/CupOfJoe/Pahina.mp3">
+                <h2>Pahina</h2>
+                <img src="../Songs/CupOfJoe/SongCover/Pahina.png" alt="Song Cover" width="100">
+            </div>
+            <div class="song-item" data-song-src="../Songs/CupOfJoe/Misteryoso.mp3">
+                <h2>Misteryoso</h2>
+                <img src="../Songs/CupOfJoe/SongCover/Misteryoso.jpg" alt="Song Cover" width="100">
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="main-player-container">
+        <audio id="mainAudioPlayer" controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My MP3 Player</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Favicon/Icon.png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <a class="home" href="index.html">Home</a>
+        </div>
+        <div class="right">
+            <a class="logout-btn" href="login.html">Logout</a>
+        </div>
+    </div>
+
+    <!-- video bg -->
+    <video autoplay muted loop id="myVideo">
+        <source src="Cover/index.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <section class="index-text">
+        <h1>Welcome to My MP3 Player</h1>
+        <p>My albums. My songs. My vibe.</p>
+    </section>
+
+    <section class="albums-grid">
+        <a class="album-card" href="Albums/Benson.html">
+            <img src="Cover/Benson.jpg" alt="Album 1">
+            <h3>Benson Boone</h3>
+        </a>
+        <a class="album-card" href="Albums/CupOfJoe.html">
+            <img src="Cover/CupOfJoe.jpg" alt="Album 2">
+            <h3>Cup Of Joe</h3>
+        </a>
+        <a class="album-card" href="Albums/Alex.html">
+            <img src="Cover/Alex.jpg" alt="Album 3">
+            <h3>Alex Warren</h3>
+        </a>
+        <a class="album-card" href="Albums/Arthur.html">
+            <img src="Cover/Arthur.jpg" alt="Album 4">
+            <h3>Arhur Nery</h3>
+        </a>
+        <a class="album-card" href="Albums/Sombr.html">
+            <img src="Cover/sombr.jpg" alt="Album 5">
+            <h3>Sombr</h3>
+        </a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
